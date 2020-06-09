@@ -26,10 +26,30 @@ disqus_shortname: jijifly
 # Build settings
 markdown: kramdown
 mathjax: true
-theme: minima
-plugins:
-  - jekyll-feed
 
+sass:
+  sass_dir: _sass
+
+permalink: /posts/:title/
+texture:
+  title: 浮一大白
+  tagline: 普通的程序员, 爱生活
+  date_format: "%b %-d, %Y"
+  style: red
+  showNav: true
+  showPicker: false
+
+  disqus_shortname: jijifly
+
+  # generate social links in footer
+  social_links:
+    twitter: august_hentai
+    github:  zhangliugang
+    linkedIn: in/zhangliugang
+    rss: rss
+
+plugins:
+  - jekyll-seo-tag
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
